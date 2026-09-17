@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    />
+    <link rel="stylesheet" href="project.css" />
+    <title>Medical Clinic</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <img src="/final project/logo.png" alt="Logo" />
+      </div>
+
+      <div class="all" id="sideMenu">
+        <nav id="navMenu">
+          <ul class="links">
+            <li class="close" id="closeMenu">
+              <i class="fa-solid fa-xmark"></i>
+            </li>
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#specialties">Specialties</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#appointment">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="button1 desktop-book">
+          <a href="#appointment">Book Appointment</a>
+        </div>
+      </div>
+
+      <div class="bar" id="openMenu">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main id="home">
+      <div class="hero">
+        <h1>Welcome to Clinva</h1>
+
+        <p>
+          Your health is our greatest priority. Experience compassionate care
+          and expert treatment designed just for you
+        </p>
+
+        <div class="button2">
+          <a class="u" href="#appointment">Book Now</a>
+          <a class="o" href="#specialties">Our Services</a>
+        </div>
+      </div>
+
+      <div class="text">
+        <p class="one">
+          15+ <br />
+          Years of Experience
+        </p>
+        <p class="two">
+          1M+ <br />
+          Happy Patients
+        </p>
+        <p class="three">
+          100% <br />
+          Satisfaction
+        </p>
+      </div>
+    </main>
+
+    <hr />
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div>
+        <h1>About Clinva</h1>
+        <p>
+          At Clinva, we are dedicated to providing quality healthcare in a
+          caring environment, with a trusted team focused on your health and
+          well-being
+          <i class="fa-solid fa-heart" style="color: rgb(116, 192, 252)"></i>
+        </p>
+        <ul>
+          <li>
+            <i
+              class="fa-solid fa-square-check"
+              style="color: rgb(116, 192, 252)"
+            ></i
+            >Professional Medical Team
+          </li>
+          <li>
+            <i
+              class="fa-solid fa-square-check"
+              style="color: rgb(116, 192, 252)"
+            ></i
+            >Patient-Centered Care
+          </li>
+          <li>
+            <i
+              class="fa-solid fa-square-check"
+              style="color: rgb(116, 192, 252)"
+            ></i
+            >Comfortable Environment
+          </li>
+          <li>
+            <i
+              class="fa-solid fa-square-check"
+              style="color: rgb(116, 192, 252)"
+            ></i
+            >Quality Healthcare Services
+          </li>
+        </ul>
+        <button onclick="location.href='#team'">Meet Our Team</button>
+      </div>
+    </section>
+
+    <!-- Specialties Section -->
+    <section class="specialties" id="specialties">
+      <div class="section-header">
+        <h2 class="title">Our specialties</h2>
+        <p class="explain">Each department is staffed by board-certified specialists withdedicated support staff and in-house diagnostics.</p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="card-top">
+            <span class="card-num">01</span>
+            <span class="card-arrow">&rarr;</span>
+          </div>
+          <h2>Primary Care</h2>
+          <p>Comprehensive annual exams, chronic disease management, preventive screenings, and same-day sick visits for the whole family.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-num">02</span>
+            <span class="card-arrow">&rarr;</span>
+          </div>
+          <h2>Cardiology</h2>
+          <p>ECG interpretation, stress testing, echocardiography, and ongoing management of hypertension, arrhythmias, and heart failure.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-num">03</span>
+            <span class="card-arrow">&rarr;</span>
+          </div>
+          <h2>Dermatology</h2>
+          <p>Skin cancer screenings, acne and eczema treatment, cosmetic consultations, and minor surgical procedures in-clinic.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-num">04</span>
+            <span class="card-arrow">&rarr;</span>
+          </div>
+          <h2>Mental Health</h2>
+          <p>Individual therapy, psychiatry referrals, medication management, and group support programs for anxiety and depression.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-num">05</span>
+            <span class="card-arrow">&rarr;</span>
+          </div>
+          <h2>Women's Health</h2>
+          <p>Gynecological exams, prenatal care coordination, fertility consultations, and menopause management.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-top">
+            <span class="card-num">06</span>
+            <span class="card-arrow">&rarr;</span>
+          </div>
+          <h2>Pediatrics</h2>
+          <p>Well-child visits, vaccinations, developmental assessments, and acute care for newborns through adolescents.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+      <div class="team-title">
+        <p>Meet Our</p>
+        <h2>Expert Specialists</h2>
+      </div>
+
+      <div class="doctors">
+        <div class="doctor">
+          <img src="/final project/Michael.jpeg"/>
+          <h3>Dr. Michael Anderson</h3>
+          <h4>Chief Doctor</h4>
+          <p>Expert in cardiology and experienced care in heart health</p>
+        </div>
+
+        <div class="doctor">
+          <img src="/final project/Robert.jpeg"/>
+          <h3>Dr. Robert Wilson</h3>
+          <h4>Deputy Chief Doctor</h4>
+          <p>Specialist in internal medicine and patient care</p>
+        </div>
+
+        <div class="doctor">
+          <img src="/final project/Emily.jpeg"/>
+          <h3>Dr. Emily Davis</h3>
+          <h4>Clinical Psychologist</h4>
+          <p>Committed to helping patients achieve better mental health</p>
+        </div>
+
+        <div class="doctor">
+          <img src="/final project/Sarah.jpeg"/>
+          <h3>Dr. Sarah Parker</h3>
+          <h4>Pediatrician</h4>
+          <p>Specialist in child health and development</p>
+        </div>
+
+        <a href="#appointment" class="book">Book With Us&rarr;</a>
+      </div>
+    </section>
+
+    <br /><br />
+    <hr />
+    <!-- Appointment Section -->
+    <div class="appointment" id="appointment">
+      <section>
+        <div class="info">
+          <h1 class="section-title">Book your appointment</h1>
+          <p class="section-subtitle">Appointments are typically confirmed within two business hours. Forurgent matters, call our front desk at (555) 204-9100.</p>
+        </div>
+        <ol class="step-num">
+          <li class="list-item">
+            <div class="circle">
+              <span class="num-circle">①</span>
+            </div>
+            <div class="step">
+              <strong class="step-title">Fill out the form</strong>
+              <p class="step-description">Include any relevant notes for your visit</p>
+            </div>    
+          </li>    
+
+          <li class="list-item">
+            <div class="circle">
+              <span class="num-circle">②</span>
+            </div>
+            <div class="step">
+              <strong class="step-title">Receive confirmation</strong>
+              <p class="step-description">We'll confirm via email within 2 hours</p>
+            </div>    
+          </li>    
+
+          <li class="list-item">
+            <div class="circle">
+              <span class="num-circle">③</span>
+            </div>
+            <div class="step">
+              <strong class="step-title">Attend your visit</strong>
+              <p class="step-description">Arrive 10 minutes early to complete intake paperwork</p>
+            </div>    
+          </li>    
+        </ol>    
+      </section>    
+
+      
+      <form class="form" id="appointmentForm">
+          <div class="form-row">
+            <div>
+              <label for="name">Full name*</label><br />
+              <input type="text" id="name" name="name" placeholder="Your name...."required/>
+            </div>
+
+            <div>
+              <label for="phone">Phone*</label><br />
+              <input type="tel" id="phone" name="phone" placeholder="(555)01 23456789" required/>
+            </div>
+          </div>
+
+          <div>
+            <label for="email">Email address*</label><br />
+            <input type="email" id="email" name="email" placeholder="*****@gmail.com" required/>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label for="Specialty">Specialty*</label>
+              <select id="select" name="select">
+                <option value="">select.</option>
+                <option value="Primary Care">Primary Care</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Dermatology">Dermatology</option>
+                <option value="Mental Health">Mental Health</option>
+                <option value="Women's Health">Women's Health</option>
+                <option value="Pediatrics">Pediatrics</option>
+              </select>
+            </div>
+            <div>
+              <label for="preferred-date">Preferred date *</label>
+              <input type="date" id="preferred-date" name="preferred_date" />
+            </div>
+          </div>
+
+          <label for="visit-notes ">Notes for your visit</label>
+          <textarea id="visit-notes" name="visit-notes" placeholder="Describe your symptoms or reason for visit..."></textarea>
+          <br /><br />
+
+          <input type="submit" value="submit appointment request"/>
+          <p class="form-message" id="formMessage" role="status"></p>
+        </form>  
+    <script src="project.js"></script>
+  </body>
+</html>
